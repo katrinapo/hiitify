@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/hiitify/static/css/main.b3f9e4c3.chunk.css",
+    "main.js": "/hiitify/static/js/main.92f6a84b.chunk.js",
+    "main.js.map": "/hiitify/static/js/main.92f6a84b.chunk.js.map",
+    "runtime-main.js": "/hiitify/static/js/runtime-main.7be5ab43.js",
+    "runtime-main.js.map": "/hiitify/static/js/runtime-main.7be5ab43.js.map",
+    "static/js/2.e38bea18.chunk.js": "/hiitify/static/js/2.e38bea18.chunk.js",
+    "static/js/2.e38bea18.chunk.js.map": "/hiitify/static/js/2.e38bea18.chunk.js.map",
+    "static/js/3.67847c65.chunk.js": "/hiitify/static/js/3.67847c65.chunk.js",
+    "static/js/3.67847c65.chunk.js.map": "/hiitify/static/js/3.67847c65.chunk.js.map",
+    "index.html": "/hiitify/index.html",
+    "static/css/main.b3f9e4c3.chunk.css.map": "/hiitify/static/css/main.b3f9e4c3.chunk.css.map",
+    "static/js/2.e38bea18.chunk.js.LICENSE.txt": "/hiitify/static/js/2.e38bea18.chunk.js.LICENSE.txt",
+    "static/media/beep.40e5c7db.mp3": "/hiitify/static/media/beep.40e5c7db.mp3",
+    "static/media/logov1.4cf2efb7.png": "/hiitify/static/media/logov1.4cf2efb7.png",
+    "static/media/logov2.04fcdb65.png": "/hiitify/static/media/logov2.04fcdb65.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7be5ab43.js",
+    "static/js/2.e38bea18.chunk.js",
+    "static/css/main.b3f9e4c3.chunk.css",
+    "static/js/main.92f6a84b.chunk.js"
+  ]
+}
