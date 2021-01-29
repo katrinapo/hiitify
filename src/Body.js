@@ -127,8 +127,18 @@ function Body({ spotify }) {
         <Header />
         <div className="grid-container">
         <Grid container spacing={1}>
-            <Grid item xs={12}>
-            <Paper className={classes.paper}><h1>HIIT Timer</h1></Paper>
+        <Grid item xs={12}>
+            <Paper className={classes.paper}>
+                <button onClick={timeControl}>
+                    {timerOn ? (
+                        <PauseCircleFilledSharpIcon />
+                    ) : <PlayCircleFilledSharpIcon />
+                    }
+                </button>
+                <button onClick={resetTime}>
+                    <RefreshSharpIcon/>
+                </button>
+            </Paper>
             </Grid>
             <Grid item xs={12} sm={6}>
             <Paper className={classes.paper}>    
@@ -158,20 +168,6 @@ function Body({ spotify }) {
                      <h3>{onRest ? "Rest" : "Work"}</h3>
                      <h1>{formatTime(display)}</h1>
                 </Paper>
-            </Grid>
-
-            <Grid item xs={12}>
-            <Paper className={classes.paper}>
-                <button onClick={timeControl}>
-                    {timerOn ? (
-                        <PauseCircleFilledSharpIcon />
-                    ) : <PlayCircleFilledSharpIcon />
-                    }
-                </button>
-                <button onClick={resetTime}>
-                    <RefreshSharpIcon/>
-                </button>
-            </Paper>
             </Grid>
         </Grid>
         </div>

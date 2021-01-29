@@ -3,7 +3,7 @@
 export const authEndpoint = "http://accounts.spotify.com/authorize";
 
 const redirectUri = "http://katrinapo.github.io/hiitify";
-
+//const redirectUri = "http://localhost:3000/";
 const clientId = "0c309b1569d1447f87fe551ef6e2629e";
 
 const scopes = [
