@@ -90,7 +90,7 @@ function Footer({ spotify }) {
             </div>
 
             <div className="footer__center">
-        <ShuffleIcon className="footer__green" />
+       {/* <ShuffleIcon className="footer__green" /> */}
         <SkipPreviousIcon onClick={skipPrevious} className="footer__icon" />
         {playing ? (
           <PauseCircleOutlineIcon
@@ -106,7 +106,7 @@ function Footer({ spotify }) {
           />
         )}
         <SkipNextIcon onClick={skipNext} className="footer__icon" />
-        <RepeatIcon className="footer__green" />
+        {/*<RepeatIcon className="footer__green" />*/}
       </div>
 
       

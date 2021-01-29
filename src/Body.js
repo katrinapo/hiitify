@@ -101,17 +101,17 @@ function Body({ spotify }) {
           nextDate += second;
         }
       }, 30);
-      localStorage.clear();
-      localStorage.setItem("interval-id", interval);
+      sessionStorage.clear();
+      sessionStorage.setItem("interval-id", interval);
     }
     if (timerOn) {
-      clearInterval(localStorage.getItem("interval-id"));
+      clearInterval(sessionStorage.getItem("interval-id"));
     }
     setTimerOn(!timerOn);
   };
 
   const resetTime = () => {
-    clearInterval(localStorage.getItem("interval-id"));
+    clearInterval(sessionStorage.getItem("interval-id"));
     setDisplay(1 * 60);
     setrestLength(1 * 30);
     setworkLength(1 * 60);
@@ -126,7 +126,7 @@ function Body({ spotify }) {
             
         <Header />
         <div className="grid-container">
-        <Grid container spacing={3}>
+        <Grid container spacing={1}>
             <Grid item xs={12}>
             <Paper className={classes.paper}><h1>HIIT Timer</h1></Paper>
             </Grid>

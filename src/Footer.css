@@ -4,8 +4,8 @@
     display: flex;
     justify-content: space-between;
     bottom: 0;
-    height: 15%;
-    width: 97%;
+    height: 8%;
+    width: 99%;
     background-color: #393939;
     padding: 20px;
     font-family: 'Poppins', sans-serif;
@@ -44,8 +44,8 @@ margin-bottom: 5px;
 }
 
 .footer__center {
-    flex: 0.4;
-    padding: 0 100px;
+    flex: 0.3;
+    padding: 0 2rem;
     color: white;
     display: flex;
     align-items: center;
@@ -64,5 +64,5 @@ margin-bottom: 5px;
     justify-content: space-between;
     align-items: center;
     color: white;
-    flex: 0.3;
+    flex: 0.4;
 }

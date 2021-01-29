@@ -20,9 +20,7 @@ function Sidebar() {
                     alt=""
                 />
             </div>
-            <br />
-            <strong className="sidebar__title">NOTE: You must launch spotify before starting this application and it must be running in the background!</strong>
-            <hr />
+          
             {/* Commenting out as functionality has not yet been implemented -
             <SidebarOption Icon={HomeIcon} title="Home" />
             <SidebarOption Icon={SearchIcon} title="Search" />
